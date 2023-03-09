@@ -1,4 +1,60 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en-US">
+    <head>
+        <title>My First Page</title>
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                <div class="row">
+                    <div class="column" id="left">
+                        <p>SEO / On-page SEO</p>
+                        <h1>Semantic HTML: What It Is and How to Use It Correctly</h1>
+                        <span>Vlado Pavlik</span>
+                        <span>Dec 02, 2022</span>
+                        <span>6 min read</span>
+                    </div>
+                    <div class="column" id="right">
+                        <img src="https://static.semrush.com/blog/uploads/media/f6/0f/f60f4ee50e919b9df55a1ec8187608ca/semantic-html5-guide.svg" width="300">
+                    </div>
+                </div>
+            </header>
+        </div>
+    </body>
+
+    <style>
+        #left{
+            float: left;
+            width: 70%;
+        }
+        #right{
+            float: left;
+            width: 30%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        #main{
+            background-color: rgb(255, 178, 110);
+            padding-left:0%;
+            margin: 0%;
+            padding-left: 13%;
+            padding-right: 13%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        body {
+            font-family: Inter,Arial,sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            overscroll-behavior-y: none;
+            padding: 0%;
+            margin: 0%;
+        }
+        h1{
+            font-size: 50px;
+        }
+    </style>
 </html>
